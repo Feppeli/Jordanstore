@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#blackBox{
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+}
+#blackBox a{
+    text-decoration: none;
+    color: #fff;
+    padding: 14px;
+    font-style: normal;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#whiteBox{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+#whiteBox  a{
+    text-decoration: none;
+    color: #181818;
+    font-weight: 600;
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'Montserrat';
+    padding: 16px;
+}
+#whiteBox a:hover{
+    color: #494949;
+    animation: 0.8s;
+}
+
+body{
+    overflow-x: hidden;
+    background-image: url(.//assets/red-and-white-air-jordan-1-shoe-on-concrete-floor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+
+#branding{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    margin-left: 15vh;
+}
+#branding div{
+    margin: 5px;
+}
+
+#bran1{
+    color: #f9f9f9;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+#bran2{
+    color: #f9f9f9;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#models{
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+}
+
+#modTxt{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding: 40px;
+}
+
+#mod1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#mod2{
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+#catalogo{
+    margin-top: -1px;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.catalogoLine{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.catalogoLine img{
+    margin: 5px;
+    overflow-x: hidden;
+    background-color: #EBE9EA;
+    padding: 20px;
+}
+
+footer{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: #181818;
+    padding: 12px;
+}
+
+footer p{
+    color: #fff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
