@@ -1,0 +1,14 @@
+@media (max-width: 1240px){
+    .catalogoLine{
+        flex-direction: column;
+    }
+    .catalogoLine img{
+        padding: 50px;
+    }
+    #catalogo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}
