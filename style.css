@@ -34,8 +34,8 @@
     padding: 16px;
 }
 #whiteBox a:hover{
-    color: #494949;
-    animation: 0.8s;
+    color: rgb(140, 0, 255);
+    transition: 0.8s;
 }
 
 body{
@@ -118,6 +118,7 @@ body{
     margin-bottom: 20px;
 }
 .catalogoLine img{
+    cursor: pointer;
     margin: 5px;
     overflow-x: hidden;
     background-color: #EBE9EA;
@@ -133,11 +134,19 @@ footer{
     padding: 12px;
 }
 
+footer p, a{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+}
 footer p{
     color: #fff;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
 }
-
+footer a{
+    text-decoration: none;
+    color: rgb(140, 0, 255);
+}
+footer a:hover{
+    color: rgba(140, 0, 255, 0.404);
+    transition: 1s;
+}
