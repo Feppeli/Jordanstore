@@ -5,7 +5,6 @@
 </p>
 
 
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -24,7 +23,7 @@ Esse é um projeto da Codelândia UX/Design criado por [Iuricode](https://www.in
 ## 🔖 Layout
 
 Desenvolvido por [Lipecode](https://www.instagram.com/lipecode/)
-Acesse o [Projeto](https://inforsegnet.github.io/Home/)
+Acesse o [Projeto](https://feppeli.github.io/Jordanstore/)
 ---
 
 Feito com ♥ by Felipe Teixeira :wave:
