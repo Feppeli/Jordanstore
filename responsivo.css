@@ -1,3 +1,4 @@
+/*Responsivo do catalogo de Tênis*/
 @media (max-width: 1240px){
     .catalogoLine{
         flex-direction: column;
@@ -10,7 +11,50 @@
         flex-direction: row;
         justify-content: space-around;
     }
+}
+@media (max-width:780px){
+    .catalogoLine img{
+        padding: 35px;
+    }
+}
+@media (max-width:680px){
+    .catalogoLine img{
+        padding: 15px;
+    }
+}
+@media(max-width:590px){
+    #catalogo{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
 
+    }
+    .catalogoLine img{
+        padding: 15px;
+        margin: 8px;
+        
+    }
 }
 
-/* Ainda falta terminar boa parte do responsivo */
+/*Responsivo do início*/
+@media(max-width:1070px){
+    #bran1 {
+        font-size: 30px;
+    }
+    #branding{
+        text-align: center;
+        margin-top: 30vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+}
+
+/*Responsivo do footer*/
+@media (max-width:500px){
+    footer{
+        padding: 15px;
+    }
+    footer, p{
+        font-size: 12px;
+    }
+}
